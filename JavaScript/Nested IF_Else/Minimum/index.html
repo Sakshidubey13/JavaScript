@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1. Wap to find minimum from 4 number using nested if else.
+
+         const a = 1245 , b = 1544, c = 4545, d= 5487;
+
+         // a , b, c, d.
+       if(a < b)
+       {
+        //a ,c , d
+         if(a<c)
+         {
+            // a , d
+            if(a<d)
+         {
+            //a 
+            console.log("A is minimum ! ");
+         }
+         else{
+            //d 
+            console.log("D is minimum ! ");
+         }
+         }else{
+            //c,d 
+            if(c < d)
+            {
+                //c
+               console.log("C is minimum ! ");
+            }
+            else{
+               //d
+               console.log("D is minimium ! ");
+            }
+         }
+       }
+       else{
+        // b, c , d
+        if(b<c )
+       {
+         //b,d
+         if(b<d)
+         {
+            //b 
+            console.log("B is minimum !");
+         }
+         else{
+            //d 
+            console.log("D is minimum !");
+         }
+       }
+       else{
+        // c, d
+        if(c<d)
+       {
+        //c 
+        console.log("C is minimum !");
+
+       }
+       else{
+        //d 
+       if(a==b && b==c && c==d && a==d)
+       {
+        console.log("All are equal !");
+       }
+       else{
+        console.log("D is minimum !");
+       }
+       }
+       }
+
+       }
+    </script>
+    
+</body>
+</html>
