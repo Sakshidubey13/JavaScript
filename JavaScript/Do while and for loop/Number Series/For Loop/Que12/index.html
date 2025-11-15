@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //14, 28, 20, 40, 32, 64, ... 
+        
+        let x = 14;
+
+        for(let i = 1; i <= 10; i++)
+    {
+        if(i%2 != 0)
+    {
+        document.writeln(x + "<br>");
+          x *= 2;
+    }
+    else{
+        document.writeln(x + "<br>");
+        x -= 8;
+
+    }
+    }
+    </script>
+</body>
+</html>

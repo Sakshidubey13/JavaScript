@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //80, 10, 70, 15, 60, ... 
+
+        let x = 80;
+        let y= 10;
+
+        for(let i = 1; i <= 10; i++)
+    {
+        if(i %2 != 0)
+    {
+        document.writeln(x +"<br>")
+         x  -= 10;
+
+    }
+    else{
+        document.writeln(y +"<br>")
+        y += 5;
+    }
+    }
+    </script>
+</body>
+</html>
