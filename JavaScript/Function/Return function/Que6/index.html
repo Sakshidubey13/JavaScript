@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Wap to check number is palinderom or not using return Function .
+        // 123 % 10 = 3 --> remove last digit
+        // 123 * 10 =  1230 -> add last digit
+        // 123 / 10 = 12.3 -> remove last digit from original number
+
+
+        function checkPalindrom(num){
+            let temp = num;
+            let rev= 0;
+
+            while(temp > 0){
+                const lastdigit = temp % 10;
+                rev = rev * 10 + lastdigit;
+                temp = Math.floor(temp / 10);
+
+            }
+
+            return rev == num;
+        }
+
+              const result = checkPalindrom(121);
+              
+
+              result ? console.log("Num is palindrom ") : console.log("Num is not palindrom");
+
+
+
+
+            </script>
+    
+</body>
+</html>
