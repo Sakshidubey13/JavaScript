@@ -647,3 +647,33 @@ let sumDigits3 = 0;
 }
 console.log("Sum of digits: " + sumDigits3);
 
+// WAP to check whether a number is Magic Number or not using while loop, do…while loop, for loop.
+
+let numm = 19;
+let temp = numm;
+let summ = 0;
+
+
+for (let i = temp; i > 0; i = Math.floor(i / 10)) {
+    summ = summ + (i % 10);
+}
+
+
+while (summ > 9) {
+    let newsum = 0;
+
+    for (let i = summ; i > 0; i = Math.floor(i / 10)) {
+        newsum = newsum + (i % 10);
+    }
+
+    summ = newsum;
+}
+
+// Final check
+if (summ == 1) {
+    console.log(numm + " is a Magic Number.");
+} else {
+    console.log(numm + " is not a Magic Number.");
+}
+
+
