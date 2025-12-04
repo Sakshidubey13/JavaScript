@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 6. Write a function that takes an array and returns only even numbers in a new array.
+
+        function getEvenNumbers(arr){
+            return arr.filter(num => num % 2 == 0);
+
+        }
+        
+         let numbers = [10, 15,22,276,33,48,57];
+         let result = getEvenNumbers(numbers);
+         console.log(result); // Output: [10, 22, 276, 48]
+    </script>
+</body>
+</html>
