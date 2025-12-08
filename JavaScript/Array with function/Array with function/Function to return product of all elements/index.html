@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function to return product of all elements</title>
+</head>
+<body>
+    <script>
+        // 13. Write a function that takes an array and returns the product of all elements.
+
+        function productOfArray(arr){
+            let product = 1;
+            for(let i = 0; i < arr.length; i++){
+                product *= arr[i];
+            }
+
+            return product;
+        }
+
+        console.log(productOfArray([ 2, 3, 4])); // Output:24
+        console.log(productOfArray([10, 20, 30])); // Output:
+
+    </script>
+</body>
+</html>
