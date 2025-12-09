@@ -2,6 +2,7 @@
 <hr>
 💫 JavaScript Concepts Used
 
+<br>
 setInterval()
 
 clearInterval()
