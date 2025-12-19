@@ -1,0 +1,72 @@
+/* Background */
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)
+    ),
+    url("image/login-bg2.jpg") center / cover no-repeat;
+}
+
+/* Centering */
+.result-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.result-card {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(14px);
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+    max-width: 420px;
+    width: 90%;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* Score Circle */
+.score-circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: 700;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Text */
+.result-card h2 {
+    font-weight: 700;
+}
+
+.result-text {
+    opacity: 0.85;
+    font-size: 15px;
+}
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(135deg, #ff4ecd, #ff6a88);
+    border: none;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.btn-outline-light {
+    font-weight: 600;
+}
