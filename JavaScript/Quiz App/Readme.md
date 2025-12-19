@@ -1,7 +1,4 @@
 🧠 Quiz Application (JavaScript Project)
-<hr>
-
-
 ✨This Quiz Application is a web-based interactive project that allows users to log in, attempt a timed multiple-choice quiz, and view their results instantly. <br>
 It includes user authentication, dynamic question loading, automatic score calculation, and an animated result page. The project is built using HTML, CSS, JavaScript, and Bootstrap with an attractive and responsive UI.
 <hr>
@@ -24,6 +21,7 @@ It includes user authentication, dynamic question loading, automatic score calcu
 👉Uses localStorage for data handling
 <hr>
 🧩 TECHNOLOGY STACK EXPLANATION
+<br>
 🔹 1. HTML (Structure)
 
 Used to create the layout and structure of the application
