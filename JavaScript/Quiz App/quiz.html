@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz Page</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+
+    <section class="quiz-section">
+        <div class="container">
+
+            <!-- Timer -->
+            <div class="timer-box text-center">
+                <p class="timer-label">Time Remaining</p>
+                <h1 id="timer-text">60</h1>
+            </div>
+
+            <!-- Quiz Card -->
+            <div class="quiz-card mt-4">
+
+                <ul class="list-group list-group-flush">
+
+                    <li id="question" class="list-group-item question">
+                        1. Question text
+                    </li>
+
+                    <li class="list-group-item option">
+                        <label>
+                            <input type="radio" name="options" value="0" id="radio-option-a">
+                            <span id="option-a">Option A</span>
+                        </label>
+                    </li>
+
+                    <li class="list-group-item option">
+                        <label>
+                            <input type="radio" name="options" value="1" id="radio-option-b">
+                            <span id="option-b">Option B</span>
+                        </label>
+                    </li>
+
+                    <li class="list-group-item option">
+                        <label>
+                            <input type="radio" name="options" value="2" id="radio-option-c">
+                            <span id="option-c">Option C</span>
+                        </label>
+                    </li>
+
+                    <li class="list-group-item option">
+                        <label>
+                            <input type="radio" name="options" value="3" id="radio-option-d">
+                            <span id="option-d">Option D</span>
+                        </label>
+                    </li>
+
+                </ul>
+
+                <button class="btn btn-next mt-4 w-100" id="next-button">
+                    Next
+                </button>
+
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
