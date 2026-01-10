@@ -1,6 +1,6 @@
 # Output 
-Creating  colour change useing javascript.
-🔹 Features Section (Optional to Add)
+Creating  colour change useing javascript.<br>
+🔹 Features Section (Optional to Add)<br>
 👉 One-click color change<br>
 👉 Random color generator<br>
 👉 Smooth and interactive UI<br>
