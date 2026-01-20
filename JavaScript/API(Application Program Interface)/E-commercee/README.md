@@ -44,11 +44,14 @@ This application allows users to browse products, add them to the cart, manage q
 
 ## 📁 Project Structure
 E-commercee/
-│
+│<BR>
 ├── index.html # Main homepage
+<BR>
 ├── cart.html # Cart page
+<BR>
 ├── style.css # Website styling
-├── script.js # Main JavaScript logic
+<BR>
+├── script.js # Main JavaScript logic<BR>
 ├── cart.js # Cart-related functionality
 
 VIDEO
