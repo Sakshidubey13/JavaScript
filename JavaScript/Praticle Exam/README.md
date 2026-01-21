@@ -7,35 +7,35 @@ This project demonstrates complete CRUD operations along with sorting, searching
 
 The objective of this project is to create a product page that allows users to:
 
-Add new products
+Add new products<br>
 
-View product list dynamically
+View product list dynamically<br>
 
-Edit existing products
+Edit existing products<br>
 
-Delete products
+Delete products<br>
 
-Store data permanently using LocalStorage
+Store data permanently using LocalStorage<br>
 
 This project provides hands-on experience in JavaScript DOM manipulation and web storage.
 
 🚀 Features
 
-✅ Create, Read, Update, Delete (CRUD)
+✅ Create, Read, Update, Delete (CRUD)<br>
 
-💾 LocalStorage data persistence
+💾 LocalStorage data persistence<br>
 
-🔍 Search products by title
+🔍 Search products by title<br>
 
-🔃 Sort products by price (Low → High / High → Low)
+🔃 Sort products by price (Low → High / High → Low)<br>
 
-🗂️ Filter products by category
+🗂️ Filter products by category<br>
 
-🎨 Bootstrap-based responsive UI
+🎨 Bootstrap-based responsive UI<br>
 
-✨ Smooth animations & hover effects
+✨ Smooth animations & hover effects<br>
 
-🧹 Auto-clear input fields after add/edit
+🧹 Auto-clear input fields after add/edit<br>
 
 🧑‍💻 Technologies Used
 
