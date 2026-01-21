@@ -49,12 +49,12 @@ Bootstrap 5
 
 Browser LocalStorage
 
-📁 Project Structure
-product-crud-app/
+📁 Project Structure<br>
+product-crud-app/<br>
 │
-├── index.html      # HTML structure
-├── style.css       # Styling & animations
-└── script.js       # JavaScript logic (CRUD + LocalStorage)
+├── index.html      # HTML structure<br>
+├── style.css       # Styling & animations<br>
+└── script.js       # JavaScript logic (CRUD + LocalStorage)<br>
 
 ⚙️ How It Works
 ➕ Add Product
