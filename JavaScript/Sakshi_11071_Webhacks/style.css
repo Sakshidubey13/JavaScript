@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    background: #f5f7fb;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.calculator {
+    display: flex;
+    gap: 30px;
+}
+
+.left {
+    flex: 1;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.field {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    font-weight: 800;
+}
+
+.value {
+    float: right;
+    color: green;
+    font-weight: bold;
+}
+
+input[type=range] {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.results p {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+.results .total {
+    font-weight: bold;
+}
+
+.chart {
+    text-align: center;
+}
+
+.donut {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: conic-gradient(#4f6cff 0% 17%, #e9edff 17% 100%);
+}
+
+.legend {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.legend span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.legend .p {
+    background: #e9edff;
+}
+
+.legend .i {
+    background: #4f6cff;
+}

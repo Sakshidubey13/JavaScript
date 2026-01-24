@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>EMI Calculator</h2>
+
+    <div class="calculator">
+
+        <!-- LEFT SIDE -->
+        <div class="left">
+
+            <div class="field">
+                <label>Loan amount</label>
+                <span class="value">₹ <span id="loanVal">400000</span></span>
+                <input type="range" id="loan" min="10000" max="1000000" step="1000" value="400000">
+            </div>
+
+            <div class="field">
+                <label>Rate of interest (p.a)</label>
+                <span class="value"><span id="rateVal">5.4</span>%</span>
+                <input type="range" id="rate" min="1" max="20" step="0.1" value="5.4">
+            </div>
+
+            <div class="field">
+                <label>Loan tenure</label>
+                <span class="value"><span id="tenureVal">7</span> Yr</span>
+                <input type="range" id="tenure" min="1" max="30" step="1" value="7">
+            </div>
+
+            <div class="results">
+                <p>Monthly EMI <span id="emi">₹0</span></p>
+                <p>Principal amount <span>₹4,00,000</span></p>
+                <p>Total interest <span id="interest">₹0</span></p>
+                <p class="total">Total amount <span id="total">₹0</span></p>
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="right">
+            <div class="chart">
+                <div class="donut"></div>
+                <div class="legend">
+                    <span class="p"></span> Principal amount
+                    <span class="i"></span> Interest amount
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
