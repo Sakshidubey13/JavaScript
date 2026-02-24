@@ -51,10 +51,10 @@ if(a>b){
                 }
                 else{
                 if(d>e){
-                    console.log("D id maximum !");
+                    console.log("D is maximum !");
                 }
                   else{
-                      console.log("E id maximum !");
+                      console.log("E is maximum !");
                   }
                     
                 }
@@ -74,7 +74,7 @@ if(a>b){
 
                     }
                     else{
-                          console.log("E id maximum !");
+                          console.log("E is maximum !");
                     }
 
                 }
@@ -104,10 +104,10 @@ else{
                 }
                 else{
                 if(d>e){
-                    console.log("D id maximum !");
+                    console.log("D is maximum !");
                 }
                   else{
-                      console.log("E id maximum !");
+                      console.log("E is maximum !");
                   }
                     
                 }
@@ -127,7 +127,7 @@ else{
 
                     }
                     else{
-                          console.log("E id maximum !");
+                          console.log("E is maximum !");
                     }
 
                 }
