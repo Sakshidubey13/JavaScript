@@ -26,7 +26,7 @@ let swap = x;
 x = y;
 y = swap;
 
-console.log(" swapping the value : x = " + x + " and y = " + y);
+console.log("swapping the value : x = " + x + " and y = " + y);
 
 // Check whether a given number is even or odd using the modulus operator.
 
