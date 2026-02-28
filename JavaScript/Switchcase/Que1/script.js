@@ -1,4 +1,4 @@
-// Wqp to print day name by day number 
+// Wqp to print day name by day number.
 
 let choice = "4";
 switch (choice){
