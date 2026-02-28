@@ -64,7 +64,7 @@ let num3 = 18;
 
 let average = (num1 + num2 + num3) / 3;
 
-console.log(" The average of three numbers is : " + average);
+console.log("The average of three numbers is : " + average);
 
 // Demonstrate the use of increment (++) and decrement (--) operators.
 
