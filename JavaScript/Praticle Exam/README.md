@@ -104,4 +104,6 @@ User Interaction & UI	✅<br>
 
 
 VIDEO
-https://drive.google.com/file/d/1uu13pjhgztzWl7bisVI8YH2Ecg6aIqLE/view?usp=sharing
+https://drive.google.com/file/d/1uu13pjhgztzWl7bisVI8YH2Ecg6aIqLE/view?usp=sharing<br>
+Try this<br>
+https://producttcurd.netlify.app/
