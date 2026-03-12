@@ -53,6 +53,7 @@ Add your live project link here (Netlify / GitHub Pages)
 🔹JavaScript (ES6) – Logic, API Handling, DOM Manipulation
 
 🔹OpenWeatherMap API – Real-time Weather Data
+⭐https://guileless-brioche-c4e34a.netlify.app/
 
 Video
 https://drive.google.com/file/d/1d62safMV2nyOZEtO1drZi-1kEWpxY4pd/view?usp=sharing
