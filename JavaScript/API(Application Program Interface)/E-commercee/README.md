@@ -6,6 +6,7 @@ The project demonstrates real-world frontend development concepts such as **API 
 This application allows users to browse products, add them to the cart, manage quantities, and retain cart data even after page refresh.
 
 ---
+⭐https://fabulous-lolly-44036c.netlify.app/
 
 ## 🎥 Project Overview (As Shown in Demo Video)
 
