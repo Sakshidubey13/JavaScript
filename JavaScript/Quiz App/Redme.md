@@ -105,5 +105,10 @@ Speeds up UI development
 
 This Quiz Application is a simple yet powerful web project that demonstrates core front-end development skills. It combines functionality with attractive design, making it suitable for educational purposes and real-world assessments.
 
+ Enter this 
+  email: "admin@gmail.com",
+    password: "Admin@1234",
+
+    
 # Output 
 https://drive.google.com/file/d/1ELjzDA9RXFeiB62IQWH1sWSvujvTbpER/view?usp=sharing  
