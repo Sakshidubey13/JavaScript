@@ -8,7 +8,7 @@ Perform basic arithmetic operations with a clean and modern UI.
 
 ## 📸 Preview
 
-![Counter App Preview](https://github.com/user-attachments/assets/8e8f627c-5233-404c-91fd-938445b773a4)
+https://github.com/user-attachments/assets/8e8f627c-5233-404c-91fd-938445b773a4
 
 ---
 
