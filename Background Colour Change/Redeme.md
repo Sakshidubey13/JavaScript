@@ -4,10 +4,10 @@ A simple and interactive web project that changes the background color randomly 
 
 📌 Features
 
-✔ Random background color generator
-✔ Displays HEX color code
-✔ Smooth transition effect
-✔ Simple and beginner-friendly
+✔ Random background color generator<br>
+✔ Displays HEX color code<br>
+✔ Smooth transition effect<br>
+✔ Simple and beginner-friendly<br>
 
 https://github.com/user-attachments/assets/3b75b455-483c-48a7-9e6c-e75cdb228055
 
