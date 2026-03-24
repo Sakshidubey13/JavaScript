@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+ 
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    gap: 30px;                /* spacing between number & buttons */
+    font-family: Arial, sans-serif;
+}
+.countt {
+    font-size: 70px;
+    font-weight: bold;
+    color: #333;
+}
+.counter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.counter button {
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+/* Click effect */
+.counter button:active {
+    transform: scale(0.95);
+}
+
+/* Shine animation */
+.counter button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(255, 255, 255, 0.6),
+        transparent
+    );
+    transition: 0.5s;
+}
+
+.counter button:hover::before {
+    left: 100%;
+}
+   
+
+
+
+
